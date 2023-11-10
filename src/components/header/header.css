@@ -1,0 +1,32 @@
+.header_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;;
+
+    padding: 1vh 4vw 2vh;
+}
+
+.change_language {
+    width: 45px;
+    background: #FFBC00;
+    /*background: #3b1e01;*/
+    color: #26262c;
+    /*color: #d3d3d3;*/
+    border-radius: 7px;
+    border: #26262c solid;
+}
+
+.change_language:hover {
+    border: #FFBC00 solid 2px;
+    background: #26262c;
+    color: #FFBC00;
+    cursor: pointer;
+}
+
+.a_PDF {
+    font-style: normal;
+}
+
+.a_PDF:hover {
+    color: #8aafda;
+}
