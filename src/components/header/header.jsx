@@ -24,7 +24,7 @@ function Header() {
                     {t('Denis Baranovskiy')}
                 </div>
                 <a
-                    href="../../assets/BaranovskiyDenis.pdf"
+                    href={require("../../assets/BaranovskiyDenis.pdf")}
                     download=""
                     target="_blank"
                     rel="noreferrer"
