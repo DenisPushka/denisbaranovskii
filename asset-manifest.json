@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/denisbaranovkii/static/css/main.e03c76d3.css",
-    "main.js": "/denisbaranovkii/static/js/main.ad9a0989.js",
-    "static/js/496.d3a1c14c.chunk.js": "/denisbaranovkii/static/js/496.d3a1c14c.chunk.js",
-    "static/media/BaranovskiyDenis.pdf": "/denisbaranovkii/static/media/BaranovskiyDenis.d955a04045aa9893a56c.pdf",
-    "static/media/my_photo.jpg": "/denisbaranovkii/static/media/my_photo.5c2b96cbbdff2357e0af.jpg",
-    "index.html": "/denisbaranovkii/index.html",
-    "main.e03c76d3.css.map": "/denisbaranovkii/static/css/main.e03c76d3.css.map",
-    "main.ad9a0989.js.map": "/denisbaranovkii/static/js/main.ad9a0989.js.map",
-    "496.d3a1c14c.chunk.js.map": "/denisbaranovkii/static/js/496.d3a1c14c.chunk.js.map"
+    "main.css": "/static/css/main.e03c76d3.css",
+    "main.js": "/static/js/main.69ccdcb0.js",
+    "static/js/496.d3a1c14c.chunk.js": "/static/js/496.d3a1c14c.chunk.js",
+    "static/media/BaranovskiyDenis.pdf": "/static/media/BaranovskiyDenis.d955a04045aa9893a56c.pdf",
+    "static/media/my_photo.jpg": "/static/media/my_photo.5c2b96cbbdff2357e0af.jpg",
+    "index.html": "/index.html",
+    "main.e03c76d3.css.map": "/static/css/main.e03c76d3.css.map",
+    "main.69ccdcb0.js.map": "/static/js/main.69ccdcb0.js.map",
+    "496.d3a1c14c.chunk.js.map": "/static/js/496.d3a1c14c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e03c76d3.css",
-    "static/js/main.ad9a0989.js"
+    "static/js/main.69ccdcb0.js"
   ]
 }
