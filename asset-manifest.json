@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/denisbaranovskii/static/css/main.e03c76d3.css",
-    "main.js": "/denisbaranovskii/static/js/main.5b91c9e1.js",
+    "main.css": "/denisbaranovskii/static/css/main.72c7cfe4.css",
+    "main.js": "/denisbaranovskii/static/js/main.d235110a.js",
     "static/js/496.d3a1c14c.chunk.js": "/denisbaranovskii/static/js/496.d3a1c14c.chunk.js",
     "static/media/BaranovskiyDenis.pdf": "/denisbaranovskii/static/media/BaranovskiyDenis.d955a04045aa9893a56c.pdf",
+    "static/media/tg.ico": "/denisbaranovskii/static/media/tg.6dae8645357ba271c4d3.ico",
+    "static/media/vk.ico": "/denisbaranovskii/static/media/vk.ecea145a0479022fece8.ico",
     "static/media/my_photo.jpg": "/denisbaranovskii/static/media/my_photo.5c2b96cbbdff2357e0af.jpg",
     "index.html": "/denisbaranovskii/index.html",
-    "main.e03c76d3.css.map": "/denisbaranovskii/static/css/main.e03c76d3.css.map",
-    "main.5b91c9e1.js.map": "/denisbaranovskii/static/js/main.5b91c9e1.js.map",
+    "main.72c7cfe4.css.map": "/denisbaranovskii/static/css/main.72c7cfe4.css.map",
+    "main.d235110a.js.map": "/denisbaranovskii/static/js/main.d235110a.js.map",
     "496.d3a1c14c.chunk.js.map": "/denisbaranovskii/static/js/496.d3a1c14c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e03c76d3.css",
-    "static/js/main.5b91c9e1.js"
+    "static/css/main.72c7cfe4.css",
+    "static/js/main.d235110a.js"
   ]
 }
