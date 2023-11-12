@@ -40,6 +40,10 @@ a {
 .main_container {
     padding: 3vh 3vw;
 
+    /* ToDo Временный блок, как сделать чтобы съезжало, как надо */
+    padding-bottom: 10vh;
+
+    min-height: 100%;
     display: grid;
     gap: 4vw;
     grid-template-columns: 1fr 3fr;

@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #FFBC00;
+    color: #26262c;
+    padding: 0.5vh 20%;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.spec {
+    /*width: 13%;*/
+    width: 2vw;
+    color: #FFBC00;
+    background: none;
+}

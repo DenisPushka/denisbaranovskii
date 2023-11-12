@@ -3,6 +3,8 @@ import './profile.css'
 import {useTranslation} from "react-i18next";
 import Database from "../database/database";
 import Header from "../header/header";
+import ProgrammingLanguages from "../programminglanguages/programmingLanguages";
+import Footer from "../footer/footer";
 
 
 function withHooks(WrappedComponent) {
@@ -41,7 +43,8 @@ class Profile extends Component {
                 return <Database/>
 
             case "Language programming":
-                break;
+                return <ProgrammingLanguages/>
+
             case "Place learning":
                 break;
             case "What I like to do":
@@ -128,14 +131,19 @@ class Profile extends Component {
                                 className="a_github">DenisPushka
                             </a>
                         </p>
+
+                        <hr color="#FFBC00"/>
+
                         <br/>
+
 
                         <div id="main_content">
                             {this.takeContent()}
                         </div>
-
                     </div>
                 </div>
+
+                <Footer/>
             </>
         )
     }
