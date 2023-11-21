@@ -32,6 +32,9 @@ class Profile extends Component {
 
         this.changeContent = this.changeContent.bind(this);
         this.takeContent = this.takeContent.bind(this);
+
+        this.state.getContent = "Language programming";
+        this.setState({getContent: "Language programming"});
     }
 
     changeContent(name) {
