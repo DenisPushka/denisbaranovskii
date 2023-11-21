@@ -5,6 +5,9 @@ import Database from "../database/database";
 import Header from "../header/header";
 import ProgrammingLanguages from "../programminglanguages/programmingLanguages";
 import Footer from "../footer/footer";
+import Experience from "../experience/experience";
+import {Projects} from "../projects/projects";
+import {WhatILikeToDo} from "../whatILikeToDo/whatILikeToDo";
 
 
 function withHooks(WrappedComponent) {
@@ -40,17 +43,19 @@ class Profile extends Component {
     takeContent() {
         switch (this.state.getContent) {
             case "Data base":
-                return <Database/>
+                return <Database/>;
 
             case "Language programming":
-                return <ProgrammingLanguages/>
+                return <ProgrammingLanguages/>;
 
-            case "Place learning":
-                break;
+            case "Experience":
+                return <Experience/>;
+
             case "What I like to do":
-                break;
+                return <WhatILikeToDo/>;
+
             case "Projects":
-                break;
+                return <Projects/>;
             default:
                 break;
         }
@@ -93,9 +98,9 @@ class Profile extends Component {
                                 {t('About myself')}:
                             </h2>
                             <div
-                                onClick={this.changeContent.bind(this, 'Places of education')}
+                                onClick={this.changeContent.bind(this, 'Experience')}
                                 className="sidebar_info_data">
-                                {t('Places of education')}
+                                {t('Experience')}
                             </div>
                             <div
                                 onClick={this.changeContent.bind(this, 'Projects')}
