@@ -12,14 +12,19 @@ function Experience() {
 
             <h2 className={"h2_db"}>Курсы</h2>
             <p>
-                В 2022 году прошел курсы от компании "Контур" по программе <a
-                className={"a_github"}
-                href="https://drive.google.com/file/d/183gapJVlWZ4s6MyJ-dlulxWYjCC6PMvj/view?usp=sharing">
-                "Основы программирования C#"</a> и <a
-                className={"a_github"}
-                href="https://drive.google.com/file/d/1x_pjBEPVF5byT-L8RQTcrbJzDhZWdBC2/view?usp=sharing">
-                "Основы программирования C# 2"
-            </a>.
+                В 2022 году прошел курсы от компании "Контур" по программе
+                <a
+                    className={"a_github"}
+                    href="https://drive.google.com/file/d/183gapJVlWZ4s6MyJ-dlulxWYjCC6PMvj/view?usp=sharing"
+                >
+                    "Основы программирования C#"
+                </a> и
+                <a
+                    className={"a_github"}
+                    href="https://drive.google.com/file/d/1x_pjBEPVF5byT-L8RQTcrbJzDhZWdBC2/view?usp=sharing"
+                >
+                    "Основы программирования C# 2"
+                </a>.
             </p>
 
             <br/>
@@ -34,12 +39,52 @@ function Experience() {
             </p>
 
             <br/>
+
+            <hr className={"hr_db"}/>
+
+            <h2 className={"h2_db"}>2024</h2>
+            <h3 className={"h3_pattern"}>Работа в EGAR</h3>
+            <p>
+                С 2024 года начался рабочий опыт в компаниии EGAR на проекте (Классификаиця МСФО9) у компании СБЕР.
+                Занимаюсь fullstack разработкой. Осноные языки: Java, TypeScript и drools. Взаимодействие с kafka. На
+                фронте знаю React и Redux. Также познакомился с liquidbase.
+            </p>
+
+            <br/>
+
+            <hr className={"hr_db"}/>
+
+            <h3 className={"h3_pattern"}>ДИПЛОМ</h3>
+            <p>
+                Диплом разрабатывался на JAVA
+                <a
+                    className={"a_github"}
+                    href="https://github.com/DenisPushka/NutritionologyJava/tree/develop"
+                >
+                    (https://github.com/DenisPushka/NutritionologyJava/tree/develop)
+                </a>
+                И JAVASCRIPT
+                <a
+                    className={"a_github"}
+                    href="https://github.com/DenisPushka/NutritionologyClient"
+                >
+                    (https://github.com/DenisPushka/NutritionologyClient)
+                </a>.
+            </p>
+
+            <br/>
+
             <hr className={"hr_db"}/>
 
             <h2 className={"h2_db"}>Дополнительно</h2>
 
             <p>
                 Решаю задачки по алгоритмам от Яндекс и leetcode.
+            </p>
+
+            <p>
+                Недавно учавствовал в codebattle от Яндекс и занял 289 место (участников было около 4600).
+                Сертификат пока еще жду, должен прийти со дня на день.
             </p>
 
             <p>

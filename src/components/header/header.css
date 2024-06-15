@@ -30,3 +30,9 @@
 .a_PDF:hover {
     color: #8aafda;
 }
+
+@media screen and (max-width: 600px) {
+    .header_container{
+        padding: 1%;
+    }
+}

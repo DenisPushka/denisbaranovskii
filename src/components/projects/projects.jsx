@@ -93,6 +93,17 @@ export function Projects() {
 
             <ul className={"ul_pl"}>
                 <li>
+                    <p>
+                        Диплом разрабатывался на JAVA
+                        <a
+                            className={"a_github"}
+                            href="https://github.com/DenisPushka/NutritionologyJava/tree/develop"
+                        >
+                            ДИПЛОМ (ВЕБ-ПРИЛОЖЕНИЕ ПО ПОДБОРУ ПИТАНИЯ)
+                        </a>
+                    </p>
+                </li>
+                <li>
                     <a
                         className={"a_github"}
                         href="https://github.com/DenisPushka/BullsAndCows">Веб-приложение "Быки и коровы"
@@ -101,7 +112,9 @@ export function Projects() {
                 <li>
                     <a
                         className={"a_github"}
-                        href="https://github.com/DenisPushka/NutritionologyJava">MVC приложение (Spring + MySql)
+                        href="https://github.com/DenisPushka/NutritionologyJava"
+                    >
+                        Серверная часть веб-приложения по подбору рациона питания
                     </a>
                 </li>
             </ul>
@@ -116,7 +129,7 @@ export function Projects() {
                 <li>
                     <a className={"a_github"}
                        href="https://github.com/DenisPushka/NutritionologyClient">
-                        Нутрициология (React)
+                        ВЕБ-ПРИЛОЖЕНИЕ ПО ПОДБОРУ ПИТАНИЯ
                     </a>
                 </li>
 

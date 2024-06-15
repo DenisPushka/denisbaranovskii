@@ -1,12 +1,14 @@
 import './programmingLanguages.css'
+import '../profile/profile.css'
 
 function ProgrammingLanguages() {
     return (
         <>
-            <h2 className={"h2_db"} >Пролог</h2>
+            <h2 className={"h2_db"}>Пролог</h2>
             <p>
-                В веб-приложениях использую DI, знаю как работают зависимости. При проектировании
-                и написании кода стараюсь использовать принципы SOLID.
+                Веб-разработчик. В последнее время активно работаю на React TS|TSX + Redux на фронте и Java + PostgreSQL
+                на беке.
+                Получаю красный аттестат. Думаю поступать в магистратуру.
             </p>
 
             <br/>
@@ -20,6 +22,7 @@ function ProgrammingLanguages() {
                 <ol>
                     <li>MVC</li>
                     <li>Singleton</li>
+                    <li>Наблюдатель</li>
                     <li>Фабричный метод</li>
                 </ol>
             </p>
@@ -85,9 +88,12 @@ function ProgrammingLanguages() {
             </p>
 
             <p>
-                Недавно решил освежить свои знания по Spring Framework. Сделал небольшое <a
-                className={"a_github"}
-                href="https://github.com/DenisPushka/NutritionologyJava">MVC приложение</a> (Spring + MySql).
+                Сделал веб-приложение по подбору рациона питания, которое <u> защитил в выпускной квалификационной работе.</u> <a
+                    className={"a_github"}
+                    href="https://github.com/DenisPushka/NutritionologyJava/tree/develop"
+                >
+                    Серверное приложени
+                </a> (Spring + SQL SERVER).
             </p>
 
             <p>Умею писать Unit тесты.</p>
@@ -170,19 +176,21 @@ function ProgrammingLanguages() {
                         Документация
                     </a>
                 </li>
-                {/* ToDo прописать правильно */}
             </ul>
 
             <br/>
             <hr className={"hr_db"}/>
 
-            <h3 className={"h3_pl"}>JavaScript</h3>
+            <h3 className={"h3_pl"}>JavaScript|TypeScript</h3>
 
             <p>
-                В основном пишу с использованием библиотеки React. Сейчас пишу <a className={"a_github"}
-                   href="https://github.com/DenisPushka/NutritionologyClient">
-                клиентское приложение
-                </a> для дипломной работы на тему "Нутрициология".
+                В разработке использую библиотеки: React + Redux. Клиентская часть веб-приложения по подбору рациона
+                питания:
+                <a className={"a_github"}
+                   href="https://github.com/DenisPushka/NutritionologyClient"
+                >
+                    клиентское приложение
+                </a> для дипломной работы.
                 На стажировке в компании "Норбит" использовал библиотеки ESQ и EXT. Умею работать с асинхронностью.
             </p>
 

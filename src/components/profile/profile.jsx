@@ -77,6 +77,11 @@ class Profile extends Component {
                             src={require("../../assets/my_photo.jpg")} alt=""
                         />
 
+                        {/*
+                            1. Вынести в мобилке -> фото на свю ширину, иконки.
+                            2. Подгрузить иконки (библиотека).
+                            3. useEffect \ useState
+                        */}
                         <div className="sidebar_info">
                             <h2>
                                 {t('Knowledge')}:

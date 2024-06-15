@@ -8,7 +8,7 @@ class Database extends Component {
                 <h2 className={"h2_db"}>Базы данных</h2>
                 <p>
                     В университете изучал <b>SQL</b> и <b>Oracle</b>. На втором курсе самостоятельно изучал
-                    <b> PostrgreSQL</b>, на 4 курсе - <b>MySQL</b>.
+                    <b> PostrgreSQL</b>, на 4 курсе - <b>MySQL</b>. С 2024 года плотно работаю с <b>PostrgreSQL</b>.
                 </p>
 
                 <p>
@@ -28,7 +28,8 @@ class Database extends Component {
                 </p>
 
                 <p>
-                    Бек для данного проекта пишу используя ASP.NET и немного Linq2db. Запросы для ASP.NET можно просмотреть <a
+                    Бек для данного проекта пишу используя ASP.NET и немного Linq2db. Запросы для ASP.NET можно
+                    просмотреть <a
                     href="https://github.com/DenisPushka/Nutritionology/tree/master/DataAccess/SQLScripts"
                     className="a_github">здесь</a>.
                     Использование провайдеров можно посмотреть
