@@ -4,8 +4,9 @@ function Experience() {
         <>
             <h2 className={"h2_db"}>Университет</h2>
             <p>
-                В 2020 году поступил в Самарский государственный технический университет по специальности
-                "Информатика и вычислительная техника" профиль "Вычислительные машины, комплексы, системы и сети".
+                В 2024 закончил Самарский государственный технический университет по специальности
+                "Информатика и вычислительная техника" профиль "Вычислительные машины, комплексы, системы и сети" с красным дипломом.
+                Сразу же после поступил в магистратуру по специальности "Инженерия искусстввенного интеллекта".
             </p>
 
             <br/>
@@ -42,12 +43,28 @@ function Experience() {
 
             <hr className={"hr_db"}/>
 
-            <h2 className={"h2_db"}>2024</h2>
+            <h2 className={"h2_db"}>2024 - по текущее</h2>
             <h3 className={"h3_pattern"}>Работа в EGAR</h3>
             <p>
-                С 2024 года начался рабочий опыт в компаниии EGAR на проекте (Классификаиця МСФО9) у компании СБЕР.
-                Занимаюсь fullstack разработкой. Осноные языки: Java, TypeScript и drools. Взаимодействие с kafka. На
-                фронте знаю React и Redux. Также познакомился с liquidbase.
+                С 2024 года начался рабочий опыт в компаниии EGAR на проекте (SPPI тестирование, "Классификаиця МСФО9") у компании СБЕР.
+                C 06.2025 стал лидом разработки. 
+                
+                Технологии с которыми работал:
+                <ul>
+                    <li>Языки: Java, TypeScript и drools.</li>
+                    <li>Kafka: (kafka-streams), kafka UI.</li>
+                    <li>Spring: проект был на 2.7.14, но позже подняли до 3.4.5.</li>
+                    <li>Java: проект был на 11, но позже подняли до 21.</li>
+                    <li>Spring security</li>
+                    <li>Liquibase</li>
+                    <li>Rest api (http 1|2)</li>
+                    <li>Технологии от Platform V (тенгри)</li>
+                    <li>OpenApi</li>
+                    <li>SberMock (тестирование)</li>
+                    <li>DB: Postrgersql</li>
+                    <li>OpenShift|Drop App|Jenkins|Argo CD|DPM</li>
+                    <li>React: 16.2.0, 18.2.0</li>
+                </ul>
             </p>
 
             <br/>
@@ -56,20 +73,20 @@ function Experience() {
 
             <h3 className={"h3_pattern"}>ДИПЛОМ</h3>
             <p>
-                Диплом разрабатывался на JAVA
+                Диплом разрабатывался на JAVA <bh/>(
                 <a
                     className={"a_github"}
                     href="https://github.com/DenisPushka/NutritionologyJava/tree/develop"
                 >
-                    (https://github.com/DenisPushka/NutritionologyJava/tree/develop)
-                </a>
-                И JAVASCRIPT
-                <a
+                    https://github.com/DenisPushka/NutritionologyJava/tree/develop
+                </a>)
+                <bh> и JAVASCRIPT </bh>
+                (<a
                     className={"a_github"}
                     href="https://github.com/DenisPushka/NutritionologyClient"
                 >
-                    (https://github.com/DenisPushka/NutritionologyClient)
-                </a>.
+                    https://github.com/DenisPushka/NutritionologyClient
+                </a>).
             </p>
 
             <br/>
@@ -83,13 +100,16 @@ function Experience() {
             </p>
 
             <p>
-                Недавно учавствовал в codebattle от Яндекс и занял 289 место (участников было около 4600).
+                Учавствовал в codebattle от Яндекс и занял 289 место (участников было около 4600).
                 Сертификат пока еще жду, должен прийти со дня на день.
             </p>
 
             <p>
-                2 раза в неделю стараюсь заниматься английским. Уровень не проверял, но документацию или ответ
-                на steckoverflow без перевода понять могу.
+                Английский на уровне чтение статей и нахождение необходимой информации.
+            </p>
+
+            <p>
+                Смотрю и пересматриваю видео с Joker.
             </p>
 
             <p>
@@ -98,6 +118,7 @@ function Experience() {
                     <li>Грокаем алгоритмы</li>
                     <li>Программирование для начинающих на C#, Васильев А.Н.</li>
                     <li>Программирование для начинающих на C#, Особенности языка, Васильев А.Н.</li>
+                    <li>Микросервисы Spring в действии, Карнелл Дж., Санчес И. У.</li>
                 </ul>
             </p>
         </>
