@@ -134,7 +134,7 @@ class Profile extends Component {
                         </p>
 
                         <p>
-                            {t('Favorite programming languages: C#️❤️, SQL☠️, Java👻, JavaScript👾 and TypeScript.')}
+                            {t('Favorite programming languages: Java👻, C#️❤️, SQL☠️, JavaScript👾 and TypeScript.')}
                         </p>
 
                         <p>
