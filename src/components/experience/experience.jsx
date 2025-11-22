@@ -46,25 +46,22 @@ function Experience() {
             <h2 className={"h2_db"}>2024 - по текущее</h2>
             <h3 className={"h3_pattern"}>Работа в EGAR</h3>
             <p>
-                С 2024 года начался рабочий опыт в компаниии EGAR на проекте (SPPI тестирование, "Классификаиця МСФО9") у компании СБЕР.
-                C 06.2025 стал лидом разработки. 
-                
-                Технологии с которыми работал:
-                <ul>
-                    <li>Языки: Java, TypeScript и drools.</li>
-                    <li>Kafka: (kafka-streams), kafka UI.</li>
-                    <li>Spring: проект был на 2.7.14, но позже подняли до 3.4.5.</li>
-                    <li>Java: проект был на 11, но позже подняли до 21.</li>
-                    <li>Spring security</li>
-                    <li>Liquibase</li>
-                    <li>Rest api (http 1|2)</li>
-                    <li>Технологии от Platform V (тенгри)</li>
-                    <li>OpenApi</li>
-                    <li>SberMock (тестирование)</li>
-                    <li>DB: Postrgersql</li>
-                    <li>OpenShift|Drop App|Jenkins|Argo CD|DPM</li>
-                    <li>React: 16.2.0, 18.2.0</li>
-                </ul>
+                С 2024 года начался рабочий опыт в компании EGAR на проекте (SPPI тестирование, "Классификаиця МСФО9") в компании СБЕР. 
+                <br /><br />
+                <b>C 06.2025 стал лидом разработки.</b>
+                <br /><br />
+                Языки: Java, TypeScript, SQL и drools<br />
+                Spring-boot: проект был на 2.7.14, но позже подняли до 3.4.5.<br />
+                Java: проект был на 11, но позже подняли до 21.<br />
+                React: 16.2.0, 18.2.0.<br />
+                <br />
+                Технологии: Kafka: (kafka-streams), kafka UI, Spring security, Liquibase, JOOQ, Rest api (http 1|2), Websocket, Redis, Технологии от Platform V (тенгри), OpenApi, SberMock (тестирование).<br />
+                <br />
+                DB: Postrgersql.<br />
+                DevOps: OpenShift|Drop App|Jenkins|Argo CD|DPM.<br />
+                OS: Linux, Windows.<br />
+                <br />
+                BitBucket (Git), Jira, Confluence.
             </p>
 
             <br/>
