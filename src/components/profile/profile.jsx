@@ -130,7 +130,7 @@ class Profile extends Component {
                         </h3>
 
                         <p>
-                            {t('Student 1 course magistrature Samara State Technical University.')}
+                            {t('Student 2 course magistrature Samara State Technical University.')}
                         </p>
 
                         <p>
